@@ -11,25 +11,25 @@ public class ArrayGenerator {
     }
 
     public int[] generateRandomIntArray(){
-        int[] array = new int[arraySize];
+        int[] arr = new int[arraySize];
 
         for (int i = 0; i < arraySize; i++) {
-            array[i] = random.nextInt(10);
+            arr[i] = random.nextInt(10);
         }
 
-        return array;
+        return arr;
     }
 
     public int[][] generateTwoDimensionalArray(){
-        int[][] array = new int[arraySize][arraySize];
+        int[][] arr = new int[arraySize][arraySize];
 
         for (int i = 0; i < arraySize; i++) {
             for (int j = 0; j < arraySize; j++) {
-                array[i][j] = random.nextInt(10);
+                arr[i][j] = random.nextInt(10);
             }
         }
 
-        return array;
+        return arr;
     }
 
 }
