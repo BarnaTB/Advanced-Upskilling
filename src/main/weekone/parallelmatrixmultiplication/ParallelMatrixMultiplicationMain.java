@@ -1,8 +1,8 @@
 package weekone.parallelmatrixmultiplication;
 
-import util.ArrayGenerator;
-
 import java.util.Arrays;
+
+import utils.ArrayGenerator;
 
 public class ParallelMatrixMultiplicationMain {
     public static void main(String[] args) throws Exception {

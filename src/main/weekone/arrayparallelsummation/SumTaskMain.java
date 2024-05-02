@@ -1,6 +1,6 @@
 package weekone.arrayparallelsummation;
 
-import util.ArrayGenerator;
+import utils.ArrayGenerator;
 
 public class SumTaskMain {
     public static void main(String[] args) {

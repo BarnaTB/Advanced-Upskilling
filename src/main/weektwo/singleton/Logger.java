@@ -11,7 +11,7 @@ class Logger {
 
     {
         if (instance != null) {
-            throw new Exception("Object already has declared");
+            throw new Exception("Object already declared");
         }
     }
 
