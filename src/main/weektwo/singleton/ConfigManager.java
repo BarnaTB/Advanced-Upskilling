@@ -33,7 +33,7 @@ class ConfigManager {
     // Method to load configuration from file or environment variables
     private void loadConfiguration() {
         try {
-            FileInputStream input = new FileInputStream("C:\\Users\\emmanuelLarbi\\dev\\Amalitech\\java-advanced-upskilling\\src\\main\\weektwo\\config.properties");
+            FileInputStream input = new FileInputStream("C:\\Users\\Barna\\Documents\\Advanced-Upskilling\\src\\main\\weektwo\\config.properties");
             properties.load(input);
             input.close();
         } catch (IOException e) {
